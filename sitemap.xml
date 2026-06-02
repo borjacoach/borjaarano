@@ -1,32 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- HOME -->
   <url>
     <loc>https://borjaarano.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://borjaarano.com/ca/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- SOBRE MI -->
+  <url>
     <loc>https://borjaarano.com/sobre_mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/sobre_mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/sobre_mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/sobre_mi"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://borjaarano.com/ca/sobre_mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/sobre_mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/sobre_mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/sobre_mi"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- SOBRE EL COACHING -->
   <url>
     <loc>https://borjaarano.com/sobre_el_coaching</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/sobre_el_coaching"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/sobre_el_coaching"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/sobre_el_coaching"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://borjaarano.com/ca/sobre_el_coaching</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/sobre_el_coaching"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/sobre_el_coaching"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/sobre_el_coaching"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- TU PROCESO / EL TEU PROCÉS -->
   <url>
     <loc>https://borjaarano.com/tu_proceso</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/tu_proceso"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/el_teu_proces"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/tu_proceso"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://borjaarano.com/ca/el_teu_proces</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/tu_proceso"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/el_teu_proces"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/tu_proceso"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ES PARA MI / ÉS PER A MI -->
   <url>
     <loc>https://borjaarano.com/es_para_mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/es_para_mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/es_per_a_mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/es_para_mi"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://borjaarano.com/ca/es_per_a_mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/es_para_mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/es_per_a_mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/es_para_mi"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- LEGALES -->
+  <url>
     <loc>https://borjaarano.com/politica_privacidad</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/politica_privacitat</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -35,4 +108,10 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://borjaarano.com/ca/avis_legal</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
