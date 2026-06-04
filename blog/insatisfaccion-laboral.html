@@ -268,7 +268,7 @@
             background: #eef2f7;
             border-radius: var(--radius-card);
             padding: 40px;
-            margin-top: 56px;
+            margin-top: 32px;
             text-align: center;
         }
         .blog-cta p:first-child {
@@ -284,13 +284,14 @@
         }
 
         /* ── FAQ ── */
-        .faq-section { margin-top: 56px; }
+        .faq-section { margin-top: 32px; padding: 10px; }
         .faq-section h2 { margin-bottom: 24px; }
         .faq-item {
             border-top: 1px solid var(--color-border);
             padding: 24px 0;
         }
         .faq-item:last-child { border-bottom: 1px solid var(--color-border); }
+        .faq-item + .faq-item { border-top: none; }
         .faq-item h3 {
             font-size: 17px;
             margin: 0 0 10px;
@@ -301,31 +302,15 @@
             font-size: 16px;
         }
 
-        /* ── Author bio ── */
-        .author-bio {
-            display: flex;
-            gap: 20px;
-            align-items: flex-start;
-            margin-top: 56px;
-            padding-top: 40px;
-            border-top: 1px solid var(--color-border);
-        }
-        .author-bio img {
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            object-fit: cover;
-            flex-shrink: 0;
-        }
-        .author-bio-text p { font-size: 15px; margin-bottom: 6px; }
-        .author-bio-text p:first-child {
-            font-weight: 700;
-            color: #000;
-            font-size: 16px;
-        }
-        .author-bio-text a {
-            color: var(--color-primary-text);
+        .article-footer-link {
+            margin-top: 48px;
+            padding-top: 8px;
+                }
+        .article-footer-link a {
             font-size: 14px;
+            color: var(--color-primary-text);
+            text-decoration: none;
+            font-weight: 600;
         }
 
         @media (max-width: 640px) {
@@ -350,6 +335,7 @@
             <a href="/sobre_el_coaching">Sobre el coaching</a>
             <a href="/tu_proceso">Tu proceso</a>
             <a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a>
         </nav>
         <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
             <span></span><span></span><span></span>
@@ -362,6 +348,7 @@
             <a href="/sobre_el_coaching">Sobre el coaching</a>
             <a href="/tu_proceso">Tu proceso</a>
             <a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a>
             <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
         </nav>
     </div>
@@ -376,8 +363,8 @@
                 <div class="blog-meta">
                     <img src="../images/borja_description.jpeg" alt="Borja Arañó, coach personal certificado ICF">
                     <div>
-                        <strong>Borja Arañó</strong> · Coach personal certificado ICF<br>
-                        <span>Junio 2026 · 5 min de lectura</span>
+                        <strong>Borja Arañó</strong> · Coach Transpersonal y Ejecutivo<br>
+                        <span>5 min de lectura</span>
                     </div>
                 </div>
             </div>
@@ -499,13 +486,9 @@
             </div>
 
             <!-- AUTHOR -->
-            <div class="author-bio">
-                <img src="../images/borja_description.jpeg" alt="Borja Arañó coach personal">
-                <div class="author-bio-text">
-                    <p>Borja Arañó</p>
-                    <p>Coach personal certificado por Innerkey (avalado por la ICF). 15 años en empresa digital antes de encontrar su propio propósito. Acompaña a profesionales que sienten que algo no encaja.</p>
-                    <a href="/sobre_mi">Más sobre mí →</a>
-                </div>
+
+            <div class="article-footer-link">
+                <a href="/sobre_mi">Sobre el autor: Borja Arañó, Coach Transpersonal y Ejecutivo Certificado →</a>
             </div>
 
         </article>
@@ -518,6 +501,7 @@
             <a href="/sobre_el_coaching">Sobre el coaching</a>
             <a href="/tu_proceso">Tu proceso</a>
             <a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a>
         </nav>
         <div class="footer-contact-info">
             <a href="mailto:hola@borjaarano.com">hola@borjaarano.com</a>

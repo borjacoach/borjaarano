@@ -118,20 +118,26 @@
         .obj-q{background:#f8f9fa;padding:18px 20px;font-size:16px;font-weight:600;color:#000}
         .obj-a{padding:18px 20px;background:#fff}
         .obj-a p{font-size:15px!important;margin:0!important;color:var(--color-text-light)!important;line-height:1.6}
-        .blog-cta{background:#eef2f7;border-radius:var(--radius-card);padding:40px;margin-top:56px;text-align:center}
+        .blog-cta{background:#eef2f7;border-radius:var(--radius-card);padding:40px;margin-top:32px;text-align:center}
         .blog-cta p:first-child{font-size:22px;font-weight:600;color:#000;margin-bottom:10px}
         .blog-cta p:nth-child(2){font-size:16px;color:var(--color-text-light);margin-bottom:24px}
-        .faq-section{margin-top:56px}
+        .faq-section{margin-top:32px;padding:10px}
         .faq-section h2{margin-bottom:24px}
         .faq-item{border-top:1px solid var(--color-border);padding:24px 0}
         .faq-item:last-child{border-bottom:1px solid var(--color-border)}
+        .faq-item + .faq-item { border-top: none; }
         .faq-item h3{font-size:17px;margin:0 0 10px;color:#000}
         .faq-item p{margin:0;font-size:16px}
-        .author-bio{display:flex;gap:20px;align-items:flex-start;margin-top:56px;padding-top:40px;border-top:1px solid var(--color-border)}
-        .author-bio img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex-shrink:0}
-        .author-bio-text p{font-size:15px;margin-bottom:6px}
-        .author-bio-text p:first-child{font-weight:700;color:#000;font-size:16px}
-        .author-bio-text a{color:var(--color-primary-text);font-size:14px}
+        .article-footer-link {
+            margin-top: 48px;
+            padding-top: 8px;
+                }
+        .article-footer-link a {
+            font-size: 14px;
+            color: var(--color-primary-text);
+            text-decoration: none;
+            font-weight: 600;
+        }
         @media(max-width:640px){.blog-hero{padding:40px 20px 32px}.blog-body{padding:40px 20px 60px}.blog-cta{padding:28px 20px}.check-cols{grid-template-columns:1fr}}
     </style>
 </head>
@@ -139,12 +145,14 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3PKDSGD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="header">
         <a href="https://www.borjaarano.com" class="header-logo"><img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach"></a>
-        <nav class="nav-menu"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a></nav>
+        <nav class="nav-menu"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a></nav>
         <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
     </header>
     <div class="mobile-nav" id="mobile-nav" hidden>
         <nav>
             <a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a>
             <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
         </nav>
     </div>
@@ -154,17 +162,17 @@
             <div class="blog-hero-inner">
                 <span class="blog-tag">Coaching personal</span>
                 <h1>¿Es el coaching para mí?<br>Cómo saberlo antes de empezar</h1>
-                <p class="lead">El coaching no es para todo el mundo ni en cualquier momento. Aquí las señales reales de que tiene sentido ahora para ti, y las de que no.</p>
+                <p class="lead">El coaching no es para todo el mundo ni para cualquier momento. Aquí las señales reales de que tiene sentido ahora para ti y las de que no.</p>
                 <div class="blog-meta">
                     <img src="../images/borja_description.jpeg" alt="Borja Arañó coach personal certificado">
-                    <div><strong>Borja Arañó</strong> · Coach personal certificado ICF<br><span>Junio 2026 · 5 min de lectura</span></div>
+                    <div><strong>Borja Arañó</strong> · Coach Transpersonal y Ejecutivo<br><span>5 min de lectura</span></div>
                 </div>
             </div>
         </div>
 
         <article class="blog-body">
-            <p>Me lo preguntan bastante. Y prefiero responderlo con honestidad antes de que alguien empiece un proceso que no es lo que necesita en este momento.</p>
-            <p>El coaching tiene un perfil de persona para el que funciona bien. Y hay situaciones en las que no es lo indicado. Aquí lo uno y lo otro, sin adornos.</p>
+            <p>Me lo preguntan bastante y prefiero responderlo con honestidad antes de que alguien empiece un proceso que no necesita en ese momento.</p>
+            <p>El coaching tiene un perfil de persona para el que funciona bien, pero también hay situaciones en las que no es lo indicado.</p>
 
             <h2>Señales de que el coaching sí tiene sentido para ti ahora</h2>
             <div class="check-cols">
@@ -176,17 +184,16 @@
                         <li>Quieres un cambio pero no sabes por dónde empezar</li>
                         <li>Llevas tiempo dándole vueltas a algo sin avanzar</li>
                         <li>Tienes una decisión importante que no terminas de tomar</li>
-                        <li>Estás dispuesto a trabajarlo de verdad, no solo a hablar</li>
+                        <li>Estás dispuesto/a a trabajar de verdad, no solo a hablar</li>
                     </ul>
                 </div>
                 <div class="check-col no">
                     <p class="col-label">Probablemente no ahora</p>
                     <ul>
                         <li>Buscas que alguien te diga qué hacer</li>
-                        <li>Estás en crisis emocional intensa o no puedes funcionar</li>
                         <li>Necesitas apoyo psicológico o psiquiátrico</li>
                         <li>Solo buscas validación para una decisión ya tomada</li>
-                        <li>No estás dispuesto a cuestionar nada de lo que ya crees</li>
+                        <li>No estás dispuesto/a a cuestionar nada de lo que ya crees</li>
                     </ul>
                 </div>
             </div>
@@ -196,18 +203,18 @@
             </div>
 
             <h2>El perfil de persona con la que trabajo</h2>
-            <p>No trabajo con todo el mundo. No porque unos sean mejores que otros, sino porque hay un perfil para el que mi acompañamiento tiene más sentido:</p>
+            <p>Es importante que nos conozcamos para asegurar que yo te puedo dar el acompañamiento que necesitas ahora. Antes de eso, es importante que sepas:</p>
             <div class="perfil-block">
                 <p class="perfil-label">Suelo trabajar con personas que…</p>
                 <ul>
-                    <li>Tienen carrera construida y sienten que algo no encaja</li>
+                    <li>Sienten que algo no encaja</li>
                     <li>Funcionan bien hacia fuera pero tienen un malestar interno difuso</li>
                     <li>Llevan tiempo sin saber bien qué quieren de su vida profesional o personal</li>
                     <li>Quieren un cambio real, no solo hablar del cambio</li>
-                    <li>Están dispuestas a asumir responsabilidad sobre sus decisiones</li>
+                    <li>Están dispuestas/os a asumir responsabilidad sobre sus decisiones</li>
                 </ul>
             </div>
-            <p>Si eso te suena, probablemente tiene sentido que hablemos. Si no te suena, quizá no es el momento o no soy el coach adecuado para ti.</p>
+            <p>Si eso te resuena, probablemente tiene sentido que hablemos. Si no, quizá no es el momento o no soy el coach adecuado para ti.</p>
 
             <h2>Las objeciones más frecuentes (y mi respuesta honesta)</h2>
             <div class="objecion">
@@ -253,20 +260,17 @@
                 <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Reservar conversación gratuita</a>
             </div>
 
-            <div class="author-bio">
-                <img src="../images/borja_description.jpeg" alt="Borja Arañó coach personal">
-                <div class="author-bio-text">
-                    <p>Borja Arañó</p>
-                    <p>Coach personal certificado por Innerkey (avalado por la ICF). 15 años en empresa digital antes de encontrar su propio propósito. Acompaña a profesionales que sienten que algo no encaja.</p>
-                    <a href="/sobre_mi">Más sobre mí →</a>
-                </div>
+
+            <div class="article-footer-link">
+                <a href="/sobre_mi">Sobre el autor: Borja Arañó, Coach Transpersonal y Ejecutivo Certificado →</a>
             </div>
         </article>
     </main>
 
     <footer class="footer">
         <p class="footer-title">Más sobre coaching</p>
-        <nav class="footer-nav"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a></nav>
+        <nav class="footer-nav"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a></nav>
         <div class="footer-contact-info"><a href="mailto:hola@borjaarano.com">hola@borjaarano.com</a><a href="https://www.linkedin.com/in/borja-arano" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         <div class="footer-legal">
             <a href="https://borjaarano.com" class="footer-legal-logo"><img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach"></a>

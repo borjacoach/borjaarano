@@ -102,20 +102,26 @@
         .ad-col ul li:last-child{border-bottom:none}
         .ad-col:first-child ul li::before{content:'✗';position:absolute;left:0;color:#c0392b;font-size:12px}
         .ad-col:last-child ul li::before{content:'→';position:absolute;left:0;color:var(--color-primary-text)}
-        .blog-cta{background:#eef2f7;border-radius:var(--radius-card);padding:40px;margin-top:56px;text-align:center}
+        .blog-cta{background:#eef2f7;border-radius:var(--radius-card);padding:40px;margin-top:32px;text-align:center}
         .blog-cta p:first-child{font-size:22px;font-weight:600;color:#000;margin-bottom:10px}
         .blog-cta p:nth-child(2){font-size:16px;color:var(--color-text-light);margin-bottom:24px}
-        .faq-section{margin-top:56px}
+        .faq-section{margin-top:32px;padding:10px}
         .faq-section h2{margin-bottom:24px}
         .faq-item{border-top:1px solid var(--color-border);padding:24px 0}
         .faq-item:last-child{border-bottom:1px solid var(--color-border)}
+        .faq-item + .faq-item { border-top: none; }
         .faq-item h3{font-size:17px;margin:0 0 10px;color:#000}
         .faq-item p{margin:0;font-size:16px}
-        .author-bio{display:flex;gap:20px;align-items:flex-start;margin-top:56px;padding-top:40px;border-top:1px solid var(--color-border)}
-        .author-bio img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex-shrink:0}
-        .author-bio-text p{font-size:15px;margin-bottom:6px}
-        .author-bio-text p:first-child{font-weight:700;color:#000;font-size:16px}
-        .author-bio-text a{color:var(--color-primary-text);font-size:14px}
+        .article-footer-link {
+            margin-top: 48px;
+            padding-top: 8px;
+                }
+        .article-footer-link a {
+            font-size: 14px;
+            color: var(--color-primary-text);
+            text-decoration: none;
+            font-weight: 600;
+        }
         @media(max-width:640px){.blog-hero{padding:40px 20px 32px}.blog-body{padding:40px 20px 60px}.blog-cta{padding:28px 20px}.antes-despues{grid-template-columns:1fr}.ad-col:first-child{border-right:none;border-bottom:1px solid var(--color-border)}}
     </style>
 </head>
@@ -123,12 +129,14 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3PKDSGD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="header">
         <a href="https://www.borjaarano.com" class="header-logo"><img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach"></a>
-        <nav class="nav-menu"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a></nav>
+        <nav class="nav-menu"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a></nav>
         <button class="hamburger-btn" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
     </header>
     <div class="mobile-nav" id="mobile-nav" hidden>
         <nav>
             <a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a>
             <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
         </nav>
     </div>
@@ -141,80 +149,80 @@
                 <p class="lead">Hay mucho contenido sobre cómo cambiar de vida. Poco sobre lo que realmente implica hacerlo cuando tienes cuarenta años, responsabilidades y una carrera construida.</p>
                 <div class="blog-meta">
                     <img src="../images/borja_description.jpeg" alt="Borja Arañó coach personal certificado">
-                    <div><strong>Borja Arañó</strong> · Coach personal certificado ICF<br><span>Junio 2026 · 6 min de lectura</span></div>
+                    <div><strong>Borja Arañó</strong> · Coach Transpersonal y Ejecutivo<br><span>6 min de lectura</span></div>
                 </div>
             </div>
         </div>
 
         <article class="blog-body">
             <p>Cambiar de vida a los 40 no es lo mismo que cambiar a los 25. No porque sea más difícil. Sino porque hay más en juego: más construido, más por perder, más personas que dependen de ti o que opinan sobre lo que haces.</p>
-            <p>Y eso cambia cómo hay que hacerlo.</p>
+            <p>Eso lo cambia todo.</p>
 
-            <h2>Lo que la mayoría de artículos no te dice</h2>
+            <h2>4 puntos importantes a tener en cuenta</h2>
             <ul class="truth-list">
                 <li class="truth-item">
                     <div class="truth-num">1</div>
                     <div class="truth-content">
                         <h3>El cambio externo no resuelve el problema interno</h3>
-                        <p>Cambiar de trabajo, de ciudad o de pareja puede ser necesario. Pero si lo que buscas es sentido y no has trabajado qué quieres de verdad, el nuevo escenario acaba pareciéndose al anterior.</p>
+                        <p>Cambiar de trabajo, de ciudad o de pareja puede ser necesario. Pero si lo que buscas es sentido y no has trabajado qué quieres de verdad, el nuevo escenario acabará, sin duda, pareciéndose mucho al anterior.</p>
                     </div>
                 </li>
                 <li class="truth-item">
                     <div class="truth-num">2</div>
                     <div class="truth-content">
                         <h3>La claridad hay que construirla antes de actuar</h3>
-                        <p>El error más frecuente: moverse desde el malestar, no desde la dirección. Cambiar para huir de algo es diferente que cambiar hacia algo. El resultado es muy distinto.</p>
+                        <p>Un error muy frecuente es moverse desde el malestar, no desde la dirección. Cambiar para huir de algo es diferente que cambiar hacia algo. El resultado es muy distinto.</p>
                     </div>
                 </li>
                 <li class="truth-item">
                     <div class="truth-num">3</div>
                     <div class="truth-content">
                         <h3>El coste no es solo económico</h3>
-                        <p>Hay un coste de identidad, de relaciones, de tiempo. No para no hacerlo. Sino para hacerlo con los ojos abiertos y una estrategia real, no solo con entusiasmo.</p>
+                        <p>Es necesario un esfuerzo personal, en las relaciones, de tiempo... Es la única manera para impulsar el cambio desde la convicción propia, la confianza en uno mismo y con una estrategia real, no solo con entusiasmo.</p>
                     </div>
                 </li>
                 <li class="truth-item">
                     <div class="truth-num">4</div>
                     <div class="truth-content">
                         <h3>No hace falta cambiar todo a la vez</h3>
-                        <p>La reinvención radical de golpe funciona para algunos. Para la mayoría, un cambio en fases —primero interior, luego exterior— es más sostenible y tiene más probabilidades de durar.</p>
+                        <p>La reinvención radical de golpe funciona para algunos. Para la mayoría, un cambio en fases es más sostenible y tiene más probabilidades de durar. Cada paso cuenta.</p>
                     </div>
                 </li>
             </ul>
 
             <div class="pull-quote">
-                <p>La pregunta no es "¿cómo lo dejo todo?". Es "¿hacia dónde quiero ir realmente?"</p>
+                <p>La pregunta no es "¿qué quiero cambiar?". Es "¿hacia dónde quiero ir realmente?"</p>
             </div>
 
             <h2>El error más común: confundir "quiero cambiar" con "sé qué quiero"</h2>
-            <p>Mucha gente sabe perfectamente lo que no quiere. El trabajo, el ritmo, la dirección. Pero cuando se les pregunta qué quieren en su lugar, la respuesta es más difusa.</p>
+            <p>Mucha gente sabe perfectamente lo que no quiere: el trabajo, el estrés, la rutina... Eso es importante, es el primer paso. Pero luego hay qué saber qué quieres en su lugar, y esa respuesta acostumbra a ser más complicada.</p>
             <p><strong>Sin esa respuesta, cualquier cambio es un salto al vacío.</strong> A veces funciona. Pero es mejor saltar con paracaídas.</p>
 
             <div class="antes-despues">
                 <div class="ad-col">
                     <p class="ad-label wrong">Cambio desde el malestar</p>
                     <ul>
-                        <li>Se mueve para alejarse de algo</li>
-                        <li>No tiene imagen clara de hacia dónde</li>
-                        <li>Decide deprisa, bajo presión emocional</li>
+                        <li>Te mueves para alejarte de algo</li>
+                        <li>No tienes una imagen clara de hacia dónde</li>
+                        <li>Decides deprisa, bajo presión emocional</li>
                         <li>El nuevo escenario acaba pareciéndose al anterior</li>
                     </ul>
                 </div>
                 <div class="ad-col">
                     <p class="ad-label right">Cambio desde la dirección</p>
                     <ul>
-                        <li>Se mueve hacia algo concreto</li>
-                        <li>Tiene claridad sobre qué quiere construir</li>
-                        <li>Planifica el cambio sin precipitarse</li>
+                        <li>Te mueve hacia algo concreto</li>
+                        <li>Tienes claridad sobre qué quieres construir</li>
+                        <li>Planificas el cambio sin precipitarse</li>
                         <li>El cambio tiene más probabilidades de durar</li>
                     </ul>
                 </div>
             </div>
 
             <h2>Por dónde empezar</h2>
-            <p>Antes de tomar ninguna decisión grande, hay una pregunta que merece tiempo y honestidad: <strong>¿qué quiero realmente, al margen de lo que se espera de mí?</strong></p>
-            <p>No es una pregunta filosófica. Es muy concreta. Tiene que ver con qué tipo de vida quieres tener, qué quieres construir, qué clase de trabajo tiene sentido para ti. Y la respuesta no viene sola: requiere un proceso.</p>
-            <p>Eso es exactamente lo que trabajo con las personas que acompaño. No qué cambiar. Sino qué quieren, de verdad, antes de cambiarlo.</p>
+            <p>Antes de tomar ninguna decisión importante, hay una pregunta que merece tu tiempo y honestidad: <strong>¿qué quiero realmente al margen de lo que se espera de mí?</strong></p>
+            <p>No es una pregunta filosófica. Es muy concreta. Tiene que ver con qué tipo de vida quieres tener, qué quieres construir, qué clase de trabajo tiene sentido para ti. La respuesta no viene sola, requiere un proceso.</p>
+            <p>Eso es exactamente lo que trabajo con las personas que acompaño. No qué cambiar, sino qué quieren de verdad y luego cómo conseguirlo.</p>
 
             <div class="faq-section">
                 <h2>Preguntas frecuentes</h2>
@@ -230,24 +238,21 @@
 
             <div class="blog-cta">
                 <p>¿Estás pensando en un cambio de vida?</p>
-                <p>Hablamos 30 minutos. Sin compromiso. Para ver si tiene sentido trabajar la claridad antes de actuar.</p>
+                <p>Hablamos 30 minutos sin compromiso. Así veremos si el un proceso de coaching es lo que necestias y si yo soy tu coach ideal.</p>
                 <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversación gratuita</a>
             </div>
 
-            <div class="author-bio">
-                <img src="../images/borja_description.jpeg" alt="Borja Arañó coach personal">
-                <div class="author-bio-text">
-                    <p>Borja Arañó</p>
-                    <p>Coach personal certificado por Innerkey (avalado por la ICF). 15 años en empresa digital antes de encontrar su propio propósito. Acompaña a profesionales que sienten que algo no encaja.</p>
-                    <a href="/sobre_mi">Más sobre mí →</a>
-                </div>
+
+            <div class="article-footer-link">
+                <a href="/sobre_mi">Sobre el autor: Borja Arañó, Coach Transpersonal y Ejecutivo Certificado →</a>
             </div>
         </article>
     </main>
 
     <footer class="footer">
         <p class="footer-title">Más sobre coaching</p>
-        <nav class="footer-nav"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a></nav>
+        <nav class="footer-nav"><a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
+            <a href="/blog">Blog</a></nav>
         <div class="footer-contact-info"><a href="mailto:hola@borjaarano.com">hola@borjaarano.com</a><a href="https://www.linkedin.com/in/borja-arano" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         <div class="footer-legal">
             <a href="https://borjaarano.com" class="footer-legal-logo"><img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach"></a>
