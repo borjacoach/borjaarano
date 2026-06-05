@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Blog de coaching personal | Borja Arañó</title>
+    <meta name="description" content="Articles sobre propòsit de vida, canvi professional i insatisfacció laboral. Sense frases d'autoajuda. Per a qui sent que alguna cosa no encaixa.">
+    <link rel="canonical" href="https://borjaarano.com/ca/blog">
+
+    <!-- GEO -->
+    <meta name="author" content="Borja Arañó">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://borjaarano.com/ca/blog">
+    <meta property="og:title" content="Blog de coaching personal | Borja Arañó">
+    <meta property="og:description" content="Artículos sobre propósito de vida, cambio profesional e insatisfacción laboral. Sin frases de autoayuda. Para quien siente que algo no encaja.">
+    <meta property="og:image" content="https://borjaarano.com/images/open_graph.png">
+    <meta property="og:locale" content="ca_ES">
+    <meta property="og:site_name" content="Borja Arañó Coaching">
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog">
+    <link rel="alternate" hreflang="es" href="https://borjaarano.com/blog">
+
+    <!-- Schema.org Blog -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Blog de Borja Arañó — Coaching Personal",
+      "description": "Articles sobre propòsit de vida, canvi professional i insatisfacció laboral per a professionals que senten que alguna cosa no encaixa.",
+      "url": "https://borjaarano.com/ca/blog",
+      "author": {
+        "@type": "Person",
+        "name": "Borja Arañó",
+        "url": "https://borjaarano.com/sobre_mi",
+        "jobTitle": "Coach Personal Certificado ICF"
+      },
+      "inLanguage": "ca",
+      "blogPost": [
+        { "@type": "BlogPosting", "headline": "Insatisfacció laboral: quan el problema no és la feina", "url": "https://borjaarano.com/ca/blog/insatisfaccio-laboral", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "La meva vida no té sentit: què li passa a qui té tot resolt", "url": "https://borjaarano.com/ca/blog/la-meva-vida-no-te-sentit", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Propòsit de vida: per què costa trobar-lo quan ja tens una carrera", "url": "https://borjaarano.com/ca/blog/proposit-de-vida", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Coaching personal: què és i en quin es diferencia l'enfocament transpersonal", "url": "https://borjaarano.com/ca/blog/coaching-personal-que-es", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "No sé què fer amb la meva vida professional: per on començar", "url": "https://borjaarano.com/ca/blog/no-se-que-fer-amb-la-meva-vida-professional", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Reinventar-se professionalment als 40: la por que ningú no menciona", "url": "https://borjaarano.com/ca/blog/reinventar-se-professionalment-als-40", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Viure en pilot automàtic: senyals que hi ets tot i que tot funcioni", "url": "https://borjaarano.com/ca/blog/viure-en-pilot-automatic", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Què passa en una sessió de coaching: el que pots esperar", "url": "https://borjaarano.com/ca/blog/sessions-de-coaching", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "Canviar de vida als 40: el que ningú et diu abans de fer-ho", "url": "https://borjaarano.com/ca/blog/canviar-de-vida-als-40", "datePublished": "2026-06-03" },
+        { "@type": "BlogPosting", "headline": "És el coaching per a mi? Com saber-ho abans de començar", "url": "https://borjaarano.com/ca/blog/es-el-coaching-per-a-mi", "datePublished": "2026-06-03" }
+      ]
+    }
+    </script>
+
+    <!-- GTM -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M3PKDSGD');</script>
+
+    <link rel="icon" type="image/png" href="../images/logo_borja_badge.png">
+    <link rel="stylesheet" href="../style.css">
+
+    <style>
+        /* ── Page layout ── */
+        .blog-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 56px var(--padding-x) 80px;
+        }
+
+        /* ── Hero ── */
+        .blog-page-hero {
+            background: #eef2f7;
+            border-radius: var(--radius-card);
+            padding: 48px 40px;
+            margin-bottom: 40px;
+        }
+        .blog-page-hero .hero-label {
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: .09em;
+            text-transform: uppercase;
+            color: var(--color-primary-text);
+            display: block;
+            margin-bottom: 14px;
+        }
+        .blog-page-hero h1 {
+            font-size: clamp(26px, 4vw, 36px);
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .blog-page-hero p {
+            font-size: 18px;
+            color: var(--color-text-light);
+            line-height: 1.65;
+            max-width: 540px;
+            margin: 0;
+        }
+
+        /* ── Filtros ── */
+        .blog-filters {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 36px;
+        }
+        .filter-btn {
+            font-size: 13px;
+            font-weight: 600;
+            padding: 7px 16px;
+            border-radius: 20px;
+            border: 1px solid var(--color-border);
+            background: #fff;
+            color: var(--color-text-light);
+            cursor: pointer;
+            transition: all .15s ease;
+            font-family: var(--font-main);
+        }
+        .filter-btn:hover {
+            border-color: var(--color-primary-text);
+            color: var(--color-primary-text);
+        }
+        .filter-btn.active {
+            background: var(--color-primary);
+            border-color: var(--color-primary);
+            color: var(--color-primary-text);
+        }
+
+        /* ── Artículo destacado ── */
+        .article-featured {
+            display: grid;
+            grid-template-columns: 1fr 100px;
+            gap: 24px;
+            align-items: center;
+            background: #fff;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-card);
+            padding: 28px 32px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color .2s, box-shadow .2s;
+        }
+        .article-featured:hover {
+            border-color: var(--color-primary-text);
+            box-shadow: 0 2px 12px rgba(19,115,51,.08);
+        }
+        .article-featured .feat-meta {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .feat-badge {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            background: var(--color-primary);
+            color: var(--color-primary-text);
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+        .feat-cat {
+            font-size: 12px;
+            color: var(--color-text-light);
+        }
+        .article-featured h2 {
+            font-size: 22px;
+            line-height: 1.25;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        .article-featured p {
+            font-size: 15px;
+            color: var(--color-text-light);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        .article-featured .feat-footer {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .feat-read-time {
+            font-size: 13px;
+            color: var(--color-text-light);
+        }
+        .feat-link {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--color-primary-text);
+        }
+        .feat-icon {
+            width: 100px;
+            height: 88px;
+            background: #eef2f7;
+            border-radius: var(--radius-card);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 36px;
+        }
+
+        /* ── Grid de cards ── */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        .article-card {
+            background: #fff;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-card);
+            padding: 24px;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            transition: border-color .2s, box-shadow .2s;
+        }
+        .article-card:hover {
+            border-color: var(--color-primary-text);
+            box-shadow: 0 2px 12px rgba(19,115,51,.08);
+        }
+        .card-icon {
+            width: 44px;
+            height: 44px;
+            background: #eef2f7;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 14px;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        .card-cat {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .07em;
+            text-transform: uppercase;
+            color: var(--color-text-light);
+            margin-bottom: 6px;
+        }
+        .article-card h3 {
+            font-size: 16px;
+            line-height: 1.3;
+            margin-bottom: 8px;
+            color: #000;
+            flex: 1;
+        }
+        .article-card p {
+            font-size: 13px;
+            color: var(--color-text-light);
+            line-height: 1.55;
+            margin-bottom: 14px;
+            flex: 1;
+        }
+        .card-footer {
+            font-size: 12px;
+            color: var(--color-text-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card-footer .card-link {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--color-primary-text);
+        }
+
+        /* ── Lista compacta ── */
+        .articles-list {
+            background: #fff;
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-card);
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+        .list-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 18px 24px;
+            border-bottom: 1px solid var(--color-border);
+            text-decoration: none;
+            color: inherit;
+            transition: background .15s;
+        }
+        .list-item:last-child { border-bottom: none; }
+        .list-item:hover { background: #f9fafb; }
+        .list-item-left { min-width: 0; }
+        .list-cat {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: .07em;
+            text-transform: uppercase;
+            color: var(--color-text-light);
+            display: block;
+            margin-bottom: 4px;
+        }
+        .list-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #000;
+            line-height: 1.3;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .list-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+        .list-time {
+            font-size: 12px;
+            color: var(--color-text-light);
+            white-space: nowrap;
+        }
+        .list-arrow {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--color-primary-text);
+        }
+
+        /* ── Estado vacío ── */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--color-text-light);
+            display: none;
+        }
+        .empty-state p { font-size: 16px; }
+
+        /* ── CTA final ── */
+        .blog-cta-bar {
+            background: var(--color-primary);
+            border-radius: var(--radius-card);
+            padding: 36px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+        }
+        .blog-cta-bar p:first-child {
+            font-size: 20px;
+            font-weight: 600;
+            color: #0a2e16;
+            margin-bottom: 4px;
+        }
+        .blog-cta-bar p:last-of-type {
+            font-size: 15px;
+            color: #1a5c32;
+            margin: 0;
+        }
+        .blog-cta-bar .btn-primary {
+            white-space: nowrap;
+            flex-shrink: 0;
+            background: var(--color-primary-text);
+            color: #fff;
+        }
+        .blog-cta-bar .btn-primary:hover { opacity: .88; }
+
+        /* ── No results ── */
+        #no-results {
+            display: none;
+            text-align: center;
+            padding: 48px 0;
+            color: var(--color-text-light);
+            font-size: 16px;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 680px) {
+            .blog-page { padding: 32px 20px 60px; }
+            .blog-page-hero { padding: 32px 24px; }
+            .articles-grid { grid-template-columns: 1fr; }
+            .article-featured {
+                grid-template-columns: 1fr;
+                padding: 24px 20px;
+            }
+            .feat-icon { display: none; }
+            .blog-cta-bar {
+                flex-direction: column;
+                text-align: center;
+                padding: 28px 20px;
+            }
+            .list-title {
+                white-space: normal;
+                overflow: visible;
+                text-overflow: unset;
+            }
+        }
+    </style>
+</head>
+<body class="page-exec">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3PKDSGD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <header class="header">
+        <a href="https://www.borjaarano.com" class="header-logo">
+            <img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach">
+        </a>
+        <nav class="nav-menu" aria-label="Navegació principal">
+            <a href="/ca/sobre_mi">Sobre mi</a>
+            <a href="/ca/sobre_el_coaching">Sobre el coaching</a>
+            <a href="/ca/el_teu_proces">El teu procés</a>
+            <a href="/ca/es_per_a_mi">És per a mi?</a>
+            <a href="/ca/blog" aria-current="page">Blog</a>
+        </nav>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Obrir menú" aria-expanded="false" aria-controls="mobile-nav">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav" hidden>
+        <nav>
+            <a href="/ca/sobre_mi">Sobre mi</a>
+            <a href="/ca/sobre_el_coaching">Sobre el coaching</a>
+            <a href="/ca/el_teu_proces">El teu procés</a>
+            <a href="/ca/es_per_a_mi">És per a mi?</a>
+            <a href="/ca/blog" aria-current="page">Blog</a>
+            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversa gratuïta</a>
+        </nav>
+    </div>
+
+    <main>
+        <div class="blog-page">
+
+            <!-- HERO -->
+            <div class="blog-page-hero">
+                <span class="hero-label">Blog</span>
+                <h1>Articles sobre propòsit,<br>carrera i coaching</h1>
+                <p>Sense frases d'autoajuda. Sense motivació buida. Reflexions directes per a qui sent que alguna cosa no encaixa.</p>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="blog-filters" role="group" aria-label="Filtrar articles per categoria">
+                <button class="filter-btn active" data-filter="tots" aria-pressed="true">Tots</button>
+                <button class="filter-btn" data-filter="feina-i-proposit" aria-pressed="false">Feina i propòsit</button>
+                <button class="filter-btn" data-filter="proposit-de-vida" aria-pressed="false">Propòsit de vida</button>
+                <button class="filter-btn" data-filter="canvi-professional" aria-pressed="false">Canvi professional</button>
+                <button class="filter-btn" data-filter="coaching" aria-pressed="false">Coaching</button>
+            </div>
+
+            <!-- ARTÍCULO DESTACADO -->
+            <a href="/blog/insatisfaccion-laboral"
+               class="article-featured"
+               data-category="feina-i-proposit"
+               id="featured-article"
+               aria-label="Article destacat: Insatisfacció laboral">
+                <div>
+                    <div class="feat-meta">
+                        <span class="feat-badge">Destacat</span>
+                        <span class="feat-cat">Feina i propòsit</span>
+                    </div>
+                    <h2>Insatisfacció laboral: quan el problema no és la feina</h2>
+                    <p>Tens una feina estable, un sou raonable, companys amb qui t'entens bé. I tot i així, alguna cosa no encaixa. De vegades la insatisfacció laboral no té res a veure amb la feina sinó amb la direcció de la teva vida.</p>
+                    <div class="feat-footer">
+                        <span class="feat-read-time">5 min de lectura</span>
+                        <span class="feat-link">Llegir article →</span>
+                    </div>
+                </div>
+                <div class="feat-icon" aria-hidden="true"><img src="../Images/maletin.png" alt="" width="48" height="48" style="object-fit:contain"></div>
+            </a>
+
+            <!-- GRID DE ARTÍCULOS -->
+            <div class="articles-grid" id="articles-grid">
+
+                <a href="/ca/blog/la-meva-vida-no-te-sentit" class="article-card" data-category="proposit-de-vida">
+                    <div class="card-icon" aria-hidden="true"><img src="../Images/brujula.png" alt="" width="24" height="24" style="object-fit:contain"></div>
+                    <div class="card-cat">Propòsit de vida</div>
+                    <h3>La meva vida no té sentit: què li passa a qui té tot resolt</h3>
+                    <p>No parlo de crisi. Parlo de qui s'aixeca, compleix, i en algun moment pensa: ¿és això tot?</p>
+                    <div class="card-footer">
+                        <span>6 min</span>
+                        <span class="card-link">Llegir →</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/proposit-de-vida" class="article-card" data-category="proposit-de-vida">
+                    <div class="card-icon" aria-hidden="true"><img src="../Images/buscar.png" alt="" width="24" height="24" style="object-fit:contain"></div>
+                    <div class="card-cat">Propòsit de vida</div>
+                    <h3>Propòsit de vida: per què costa trobar-lo quan ja tens una carrera</h3>
+                    <p>Els tests i retirs de cap de setmana funcionen per a alguns. Per a qui porta anys construint una carrera, la cosa és més complicada.</p>
+                    <div class="card-footer">
+                        <span>7 min</span>
+                        <span class="card-link">Llegir →</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/coaching-personal-que-es" class="article-card" data-category="coaching">
+                    <div class="card-icon" aria-hidden="true"><img src="../Images/burbuja-de-dialogo.png" alt="" width="24" height="24" style="object-fit:contain"></div>
+                    <div class="card-cat">Coaching</div>
+                    <h3>Coaching personal: què és l'enfocament transpersonal i per què importa</h3>
+                    <p>La paraula "coaching" porta anys acumulant soroll. Aquí el que és de veritat, per a què serveix i com saber si és el que necessites.</p>
+                    <div class="card-footer">
+                        <span>6 min</span>
+                        <span class="card-link">Llegir →</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/reinventar-se-professionalment-als-40" class="article-card" data-category="canvi-professional">
+                    <div class="card-icon" aria-hidden="true"><img src="../Images/cambio-de-dinero.png" alt="" width="24" height="24" style="object-fit:contain"></div>
+                    <div class="card-cat">Canvi professional</div>
+                    <h3>Reinventar-se professionalment als 40: la por que ningú no menciona</h3>
+                    <p>No és l'edat, no és el mercat laboral, no és els diners. El veritable obstacle és alguna cosa més profunda i més personal.</p>
+                    <div class="card-footer">
+                        <span>7 min</span>
+                        <span class="card-link">Llegir →</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- LISTA COMPACTA -->
+            <div class="articles-list" id="articles-list">
+
+                <a href="/ca/blog/no-se-que-fer-amb-la-meva-vida-professional" class="list-item" data-category="feina-i-proposit">
+                    <div class="list-item-left">
+                        <span class="list-cat">Feina i propòsit</span>
+                        <span class="list-title">No sé què fer amb la meva vida professional: per on començar</span>
+                    </div>
+                    <div class="list-right">
+                        <span class="list-time">6 min</span>
+                        <span class="list-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/viure-en-pilot-automatic" class="list-item" data-category="proposit-de-vida">
+                    <div class="list-item-left">
+                        <span class="list-cat">Propòsit de vida</span>
+                        <span class="list-title">Viure en pilot automàtic: senyals que hi ets tot i que tot funcioni</span>
+                    </div>
+                    <div class="list-right">
+                        <span class="list-time">5 min</span>
+                        <span class="list-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/sessions-de-coaching" class="list-item" data-category="coaching">
+                    <div class="list-item-left">
+                        <span class="list-cat">Coaching</span>
+                        <span class="list-title">Què passa en una sessió de coaching: el que pots esperar</span>
+                    </div>
+                    <div class="list-right">
+                        <span class="list-time">5 min</span>
+                        <span class="list-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/canviar-de-vida-als-40" class="list-item" data-category="canvi-professional">
+                    <div class="list-item-left">
+                        <span class="list-cat">Canvi professional</span>
+                        <span class="list-title">Canviar de vida als 40: el que ningú et diu abans de fer-ho</span>
+                    </div>
+                    <div class="list-right">
+                        <span class="list-time">6 min</span>
+                        <span class="list-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="/ca/blog/es-el-coaching-per-a-mi" class="list-item" data-category="coaching">
+                    <div class="list-item-left">
+                        <span class="list-cat">Coaching</span>
+                        <span class="list-title">És el coaching per a mi? Com saber-ho abans de començar</span>
+                    </div>
+                    <div class="list-right">
+                        <span class="list-time">5 min</span>
+                        <span class="list-arrow">→</span>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- ESTADO VACÍO -->
+            <div id="no-results" role="status" aria-live="polite">
+                <p>Encara no hi ha articles en aquesta categoria.<br>Aviat hi haurà més contingut aquí.</p>
+            </div>
+
+            <!-- CTA FINAL -->
+            <div class="blog-cta-bar">
+                <div>
+                    <p>Et reconèixes en alguna cosa del que llegeixes?</p>
+                    <p>Parlem 30 minuts. Sense compromís.</p>
+                </div>
+                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversa gratuïta</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-title">Més sobre coaching</p>
+        <nav class="footer-nav" aria-label="Navegació del peu de pàgina">
+            <a href="/ca/sobre_mi">Sobre mi</a>
+            <a href="/ca/sobre_el_coaching">Sobre el coaching</a>
+            <a href="/ca/el_teu_proces">El teu procés</a>
+            <a href="/ca/es_per_a_mi">És per a mi?</a>
+            <a href="/ca/blog">Blog</a>
+        </nav>
+        <div class="footer-contact-info">
+            <a href="mailto:hola@borjaarano.com">hola@borjaarano.com</a>
+            <a href="https://www.linkedin.com/in/borja-arano" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <div class="footer-legal">
+            <a href="https://borjaarano.com" class="footer-legal-logo">
+                <img src="../images/logo_borja_horizontal_transparent.png" alt="Borja Arañó Coach">
+            </a>
+            <div class="footer-legal-links">
+                <a href="/ca/politica_privacitat">Política de privacitat</a>
+                <a href="/ca/avis_legal">Avís legal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+
+        /* ── Hamburger ── */
+        var btn = document.getElementById('hamburger-btn');
+        var mobileNav = document.getElementById('mobile-nav');
+        if (btn && mobileNav) {
+            btn.addEventListener('click', function() {
+                var open = this.getAttribute('aria-expanded') === 'true';
+                this.setAttribute('aria-expanded', open ? 'false' : 'true');
+                mobileNav.hidden = open;
+                document.body.style.overflow = open ? '' : 'hidden';
+            });
+        }
+
+        /* ── Filtros ── */
+        var filterBtns = document.querySelectorAll('.filter-btn');
+        var featured   = document.getElementById('featured-article');
+        var gridCards  = document.querySelectorAll('#articles-grid .article-card');
+        var listItems  = document.querySelectorAll('#articles-list .list-item');
+        var noResults  = document.getElementById('no-results');
+        var grid       = document.getElementById('articles-grid');
+        var list       = document.getElementById('articles-list');
+
+        function applyFilter(filter) {
+            /* 1. Actualizar botones */
+            filterBtns.forEach(function(b) {
+                var isActive = b.getAttribute('data-filter') === filter;
+                b.classList.toggle('active', isActive);
+                b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+            });
+
+            /* 2. Artículo destacado — siempre visible excepto si la categoría
+               es distinta a la suya y no es "todos" */
+            var featCat = featured.getAttribute('data-category');
+            var showFeat = (filter === 'todos' || filter === featCat);
+            featured.style.display = showFeat ? '' : 'none';
+
+            /* 3. Grid cards */
+            var visibleGrid = 0;
+            gridCards.forEach(function(card) {
+                var show = (filter === 'todos' || card.getAttribute('data-category') === filter);
+                card.style.display = show ? '' : 'none';
+                if (show) visibleGrid++;
+            });
+
+            /* 4. Lista compacta */
+            var visibleList = 0;
+            listItems.forEach(function(item) {
+                var show = (filter === 'todos' || item.getAttribute('data-category') === filter);
+                item.style.display = show ? '' : 'none';
+                if (show) visibleList++;
+            });
+
+            /* 5. Mostrar/ocultar contenedores vacíos para evitar bordes huérfanos */
+            grid.style.display = visibleGrid > 0 ? '' : 'none';
+            list.style.display = visibleList > 0 ? '' : 'none';
+
+            /* 6. Estado vacío */
+            var totalVisible = (showFeat ? 1 : 0) + visibleGrid + visibleList;
+            noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+        }
+
+        filterBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                applyFilter(this.getAttribute('data-filter'));
+            });
+        });
+
+        /* Inicializar con "Todos" */
+        applyFilter('tots');
+
+    })();
+    </script>
+</body>
+</html>
