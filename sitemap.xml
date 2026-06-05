@@ -92,6 +92,204 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- BLOG ÍNDICE -->
+  <url>
+    <loc>https://borjaarano.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- BLOG: insatisfacción laboral -->
+  <url>
+    <loc>https://borjaarano.com/blog/insatisfaccion-laboral</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/insatisfaccion-laboral"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/insatisfaccio-laboral"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/insatisfaccion-laboral"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/insatisfaccio-laboral</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/insatisfaccion-laboral"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/insatisfaccio-laboral"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/insatisfaccion-laboral"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: mi vida no tiene sentido -->
+  <url>
+    <loc>https://borjaarano.com/blog/mi-vida-no-tiene-sentido</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/la-meva-vida-no-te-sentit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/la-meva-vida-no-te-sentit</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/la-meva-vida-no-te-sentit"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: propósito de vida -->
+  <url>
+    <loc>https://borjaarano.com/blog/proposito-de-vida</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/proposito-de-vida"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/proposit-de-vida"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/proposito-de-vida"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/proposit-de-vida</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/proposito-de-vida"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/proposit-de-vida"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/proposito-de-vida"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: coaching personal transpersonal -->
+  <url>
+    <loc>https://borjaarano.com/blog/coaching-personal-que-es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/coaching-personal-que-es"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/coaching-personal-que-es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/coaching-personal-que-es"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/coaching-personal-que-es</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/coaching-personal-que-es"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/coaching-personal-que-es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/coaching-personal-que-es"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: no sé qué hacer con mi vida profesional -->
+  <url>
+    <loc>https://borjaarano.com/blog/no-se-que-hacer-con-mi-vida-profesional</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/no-se-que-hacer-con-mi-vida-profesional"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/no-se-que-fer-amb-la-meva-vida-professional"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/no-se-que-hacer-con-mi-vida-profesional"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/no-se-que-fer-amb-la-meva-vida-professional</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/no-se-que-hacer-con-mi-vida-profesional"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/no-se-que-fer-amb-la-meva-vida-professional"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/no-se-que-hacer-con-mi-vida-profesional"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: reinventarse profesionalmente a los 40 -->
+  <url>
+    <loc>https://borjaarano.com/blog/reinventarse-profesionalmente-a-los-40</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/reinventarse-profesionalmente-a-los-40"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/reinventar-se-professionalment-als-40"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/reinventarse-profesionalmente-a-los-40"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/reinventar-se-professionalment-als-40</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/reinventarse-profesionalmente-a-los-40"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/reinventar-se-professionalment-als-40"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/reinventarse-profesionalmente-a-los-40"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: vivir en piloto automático -->
+  <url>
+    <loc>https://borjaarano.com/blog/vivir-en-piloto-automatico</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/vivir-en-piloto-automatico"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/viure-en-pilot-automatic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/vivir-en-piloto-automatico"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/viure-en-pilot-automatic</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/vivir-en-piloto-automatico"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/viure-en-pilot-automatic"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/vivir-en-piloto-automatico"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: sesiones de coaching -->
+  <url>
+    <loc>https://borjaarano.com/blog/sesiones-de-coaching</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/sesiones-de-coaching"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/sessions-de-coaching"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/sesiones-de-coaching"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/sessions-de-coaching</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/sesiones-de-coaching"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/sessions-de-coaching"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/sesiones-de-coaching"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: cambiar de vida a los 40 -->
+  <url>
+    <loc>https://borjaarano.com/blog/cambiar-de-vida-a-los-40</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/cambiar-de-vida-a-los-40"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/canviar-de-vida-als-40"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/cambiar-de-vida-a-los-40"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/canviar-de-vida-als-40</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/cambiar-de-vida-a-los-40"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/canviar-de-vida-als-40"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/cambiar-de-vida-a-los-40"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- BLOG: ¿es el coaching para mí? -->
+  <url>
+    <loc>https://borjaarano.com/blog/es-el-coaching-para-mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/es-el-coaching-para-mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/es-el-coaching-per-a-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/es-el-coaching-para-mi"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://borjaarano.com/ca/blog/es-el-coaching-per-a-mi</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/es-el-coaching-para-mi"/>
+    <xhtml:link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/es-el-coaching-per-a-mi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/es-el-coaching-para-mi"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- LEGALES -->
   <url>
     <loc>https://borjaarano.com/politica_privacidad</loc>
