@@ -65,6 +65,7 @@
 
     <link rel="icon" type="image/png" href="../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
     <style>
         /* ── Page layout ── */
@@ -431,7 +432,7 @@
             <a href="/tu_proceso">Tu proceso</a>
             <a href="/es_para_mi">¿Es para mí?</a>
             <a href="/blog" aria-current="page">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversación gratuita</a>
         </nav>
     </div>
 
@@ -595,7 +596,7 @@
                     <p>¿Te reconoces en algo de lo que lees?</p>
                     <p>Hablamos 30 minutos. Sin compromiso.</p>
                 </div>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversación gratuita</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversación gratuita</a>
             </div>
 
         </div>
@@ -699,5 +700,13 @@
 
     })();
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

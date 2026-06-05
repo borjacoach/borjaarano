@@ -70,6 +70,7 @@
 
     <link rel="icon" type="image/png" href="../../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <style>
         .blog-hero{background:#eef2f7;padding:60px var(--padding-x) 48px}
         .blog-hero-inner{max-width:720px;margin:0 auto}
@@ -137,7 +138,7 @@
         <nav>
             <a href="/ca/sobre_mi">Sobre mi</a><a href="/ca/sobre_el_coaching">Sobre el coaching</a><a href="/ca/el_teu_proces">El teu procés</a><a href="/ca/es_per_a_mi">És per a mi?</a>
             <a href="/ca/blog">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversa gratuïta</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversa gratuïta</a>
         </nav>
     </div>
 
@@ -239,7 +240,7 @@
             <div class="blog-cta">
                 <p>Estàs pensant en un canvi de vida?</p>
                 <p>Parlem 30 minuts sense compromís. Així veurem si un procés de coaching és el que necessites i si jo soc el teu coach ideal.</p>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversa gratuïta</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversa gratuïta</a>
             </div>
 
 
@@ -263,5 +264,13 @@
         var btn=document.getElementById('hamburger-btn'),nav=document.getElementById('mobile-nav');
         if(btn&&nav){btn.addEventListener('click',function(){var open=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',open?'false':'true');nav.hidden=open;document.body.style.overflow=open?'':'hidden';});}
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

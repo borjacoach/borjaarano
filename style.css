@@ -597,6 +597,12 @@ p:last-child {
     font-size: 18px;
 }
 
+.testimonial-toggle-link {
+    font-size: 18px;
+    color: var(--color-primary-text);
+    text-decoration: underline;
+}
+
 /* =========================================================================
    SLIDER DE TESTIMONIOS
    ========================================================================= */

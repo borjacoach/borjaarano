@@ -103,6 +103,7 @@
 
     <link rel="icon" type="image/png" href="../../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
     <style>
         .blog-hero{background:#eef2f7;padding:60px var(--padding-x) 48px}
@@ -223,7 +224,7 @@
             <a href="/ca/el_teu_proces">El teu procés</a>
             <a href="/ca/es_per_a_mi">És per a mi?</a>
             <a href="/ca/blog">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversa gratuïta</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversa gratuïta</a>
         </nav>
     </div>
 
@@ -472,7 +473,7 @@
             <div class="blog-cta">
                 <p>Té sentit per a tu en aquest moment?</p>
                 <p>La millor manera de saber-ho és parlar-ho. 30 minuts, sense compromís.</p>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Reservar conversa gratuïta</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Reservar conversa gratuïta</a>
             </div>
 
             <div class="article-footer-link">
@@ -517,5 +518,13 @@
             });
         }
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

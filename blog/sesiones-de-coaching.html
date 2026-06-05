@@ -24,6 +24,7 @@
     <meta property="og:site_name" content="Borja Arañó Coaching">
 
     <link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/sesiones-de-coaching">
+    <link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/sessions-de-coaching">
     <link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/sesiones-de-coaching">
 
     <script type="application/ld+json">
@@ -78,6 +79,7 @@
 
     <link rel="icon" type="image/png" href="../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <style>
         .blog-hero{background:#eef2f7;padding:60px var(--padding-x) 48px}
         .blog-hero-inner{max-width:720px;margin:0 auto}
@@ -150,7 +152,7 @@
         <nav>
             <a href="/sobre_mi">Sobre mí</a><a href="/sobre_el_coaching">Sobre el coaching</a><a href="/tu_proceso">Tu proceso</a><a href="/es_para_mi">¿Es para mí?</a>
             <a href="/blog">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversación gratuita</a>
         </nav>
     </div>
 
@@ -255,7 +257,7 @@
             <div class="blog-cta">
                 <p>¿Quieres ver cómo es en la práctica?</p>
                 <p>La primera conversación es gratuita y de 30 minutos. Sin compromiso, sin presión.</p>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Reservar conversación</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Reservar conversación</a>
             </div>
 
 
@@ -279,5 +281,13 @@
         var btn=document.getElementById('hamburger-btn'),nav=document.getElementById('mobile-nav');
         if(btn&&nav){btn.addEventListener('click',function(){var open=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',open?'false':'true');nav.hidden=open;document.body.style.overflow=open?'':'hidden';});}
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

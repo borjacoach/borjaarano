@@ -26,7 +26,6 @@
     <link rel="icon" type="image/png" href="images/logo_borja_badge.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -242,7 +241,15 @@
                                 <div class="testimonial-content">
                                     <h4>Teresa Sancho</h4>
                                     <p style="font-size:14px;margin:2px 0 8px;"><a href="https://www.linkedin.com/in/maria-teresa-sancho-ferrer/" target="_blank" rel="noopener noreferrer" style="color:var(--color-text-light);text-decoration:underline;">Directora Comercial Caixabank</a></p>
-                                    <p>"Pensaba que el coaching era para gente con grandes crisis. No lo es. Es para cuando quieres más de ti mismo y no sabes cómo llegar."</p>
+                                    <p>"Después de 25 años en la misma empresa, una organización que había sido mi casa profesional y donde entré por vocación, sentí algo que no sabía explicar. Tenía una buena posición, estabilidad económica y una familia maravillosa. Desde fuera, parecía que lo tenía todo. Sin embargo, por dentro me sentía perdida, desconectada y sin rumbo. <a href="#" id="teresa-read-more" class="testimonial-toggle-link" onclick="document.getElementById('teresa-more').style.display='block';this.style.display='none';return false;">Leer más</a></p>
+                                    <div id="teresa-more" style="display:none;">
+                                        <p>No estaba atravesando una depresión; simplemente había dejado de escucharme. Sentía que una etapa de mi vida había terminado y no sabía cuál era el siguiente paso.</p>
+                                        <p>Iniciar un proceso de coaching con Borja fue una de las mejores decisiones que he tomado. Con su acompañamiento, pude parar, mirar hacia dentro y reconectar con quien realmente soy hoy. Me ayudó a recuperar claridad, confianza y dirección cuando más lo necesitaba.</p>
+                                        <p>Gracias a este proceso encontré de nuevo mi centro, comprendí qué era lo que me estaba ocurriendo y pude dar forma a un propósito que llevaba tiempo esperando ser escuchado. Hoy me siento mucho más alineada con mis valores, con ilusión por el futuro y con la certeza de estar construyendo una vida más coherente conmigo misma.</p>
+                                        <p>Estoy profundamente agradecida a Borja por su profesionalidad, su sensibilidad y su capacidad para acompañar sin juzgar. Este proceso no solo me ayudó a encontrar respuestas, sino también a volver a encontrarme a mí misma.</p>
+                                        <p>Mil gracias de verdad."</p>
+                                        <a href="#" class="testimonial-toggle-link" style="display:block;margin-top:4px;" onclick="document.getElementById('teresa-more').style.display='none';document.getElementById('teresa-read-more').style.display='';return false;">Ocultar</a>
+                                    </div>
                                 </div>
                             </article>
                             <article class="testimonial-card">
@@ -547,5 +554,13 @@
             });
         })();
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

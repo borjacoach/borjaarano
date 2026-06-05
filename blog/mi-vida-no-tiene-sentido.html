@@ -28,6 +28,7 @@
 
     <!-- hreflang -->
     <link rel="alternate" hreflang="es" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido">
+    <link rel="alternate" hreflang="ca" href="https://borjaarano.com/ca/blog/la-meva-vida-no-te-sentit">
     <link rel="alternate" hreflang="x-default" href="https://borjaarano.com/blog/mi-vida-no-tiene-sentido">
 
     <!-- Schema.org -->
@@ -97,6 +98,7 @@
 
     <link rel="icon" type="image/png" href="../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
     <style>
         .blog-hero {
@@ -305,7 +307,7 @@
             <a href="/tu_proceso">Tu proceso</a>
             <a href="/es_para_mi">¿Es para mí?</a>
             <a href="/blog">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversación gratuita</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversación gratuita</a>
         </nav>
     </div>
 
@@ -408,7 +410,7 @@
             <div class="blog-cta">
                 <p>¿Te reconoces en esto?</p>
                 <p>Hablamos 30 minutos. Sin compromiso. Te cuento cómo trabajo y vemos juntos si tiene sentido para ti.</p>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversación gratuita</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversación gratuita</a>
             </div>
 
             <!-- AUTHOR -->
@@ -456,5 +458,13 @@
             });
         }
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>

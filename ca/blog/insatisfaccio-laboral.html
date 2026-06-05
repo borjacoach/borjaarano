@@ -97,6 +97,7 @@
 
     <link rel="icon" type="image/png" href="../../images/logo_borja_badge.png">
     <link rel="stylesheet" href="../../style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
     <style>
         /* ── Blog layout ── */
@@ -349,7 +350,7 @@
             <a href="/ca/el_teu_proces">El teu procés</a>
             <a href="/ca/es_per_a_mi">És per a mi?</a>
             <a href="/ca/blog">Blog</a>
-            <a href="https://calendly.com/borjaarano/30min" class="mobile-nav-cta btn btn-primary">Conversa gratuïta</a>
+            <a href="" class="mobile-nav-cta btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversa gratuïta</a>
         </nav>
     </div>
 
@@ -480,7 +481,7 @@
             <div class="blog-cta">
                 <p>Reconèixes aquest patró en tu?</p>
                 <p>Parlem 30 minuts sense compromís. Et comento com treballo i veiem junts si té sentit per a tu.</p>
-                <a href="https://calendly.com/borjaarano/30min" class="btn btn-primary" target="_blank" rel="noopener">Conversa gratuïta</a>
+                <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/borjaarano/30min'});return false;">Conversa gratuïta</a>
             </div>
 
             <!-- AUTHOR -->
@@ -528,5 +529,13 @@
             });
         }
     </script>
+<script>
+  setTimeout(function() {
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.body.appendChild(s);
+  }, 2500);
+</script>
 </body>
 </html>
