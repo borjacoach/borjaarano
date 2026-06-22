@@ -370,7 +370,7 @@ function buildColors(){
 
 async function loadLogo(){
   try{
-    const data=await window.fs.readFile('logo_innerkey.png');
+    const data=await window.fs.readFile('images/logo_innerkey.png');
     const bin=Array.from(new Uint8Array(data)).map(b=>String.fromCharCode(b)).join('');
     logoData='data:image/png;base64,'+btoa(bin);
     const img=document.getElementById('logo');
